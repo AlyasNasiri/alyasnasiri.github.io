@@ -14,9 +14,10 @@
     <a class="skip-link" href="#main">Skip to workspace</a>
     <header class="topbar">
       <button class="menu-toggle icon-button" type="button" aria-label="Show documents" aria-controls="document-sidebar" aria-expanded="false">☰</button>
-      <a class="brand" href="#write" aria-label="Alyas Nasiri, writing workspace">Alyas Nasiri</a>
+      <a class="brand" href="#word" aria-label="Alyas Nasiri, word lookup">Alyas Nasiri</a>
       <nav class="main-nav" aria-label="Workspace sections">
-        <button type="button" data-route="write" class="active">Write</button>
+        <button type="button" data-route="word" class="active">Word</button>
+        <button type="button" data-route="write">Write</button>
         <button type="button" data-route="search">Search</button>
         <button type="button" data-route="lab">Text Lab</button>
         <button type="button" data-route="learn">Learn</button>
@@ -24,10 +25,14 @@
       <div class="top-actions"><span id="save-status" aria-live="polite">Preparing workspace</span><button type="button" class="quiet-button" id="download-recovery" hidden>Download recovery</button><button type="button" class="quiet-button" id="keyboard-toggle" aria-expanded="false">Keyboard</button></div>
     </header>
     <main id="main">
-      <section id="write-view" class="view active" aria-label="Writing Studio">
+      <section id="word-view" class="view active" aria-label="Word lookup">
+        <div class="page-heading"><p class="eyebrow">Word</p><h1>Find a Burushaski word</h1><p>Search a starter collection in Burushaski, English or Urdu.</p></div>
+        <div class="word-panel"><label for="word-query">Search a word</label><div class="search-line"><input id="word-query" type="search" maxlength="500" autocomplete="off" placeholder="Original script, English, or Urdu" aria-describedby="word-summary"><button id="word-search" type="button">Search</button></div><p id="word-summary" class="word-summary" aria-live="polite">Loading source-attributed records…</p><div id="word-results" class="word-results"></div></div>
+      </section>
+      <section id="write-view" class="view" aria-label="Writing Studio">
         <aside id="document-sidebar" class="document-sidebar" aria-label="Documents">
           <div class="sidebar-title"><h2>Documents</h2><button type="button" class="icon-button" id="new-document" aria-label="New document">＋</button></div>
-          <nav class="mobile-nav" aria-label="Workspace sections"><button type="button" data-route="write">Write</button><button type="button" data-route="search">Search</button><button type="button" data-route="lab">Text Lab</button><button type="button" data-route="learn">Learn</button></nav>
+          <nav class="mobile-nav" aria-label="Workspace sections"><button type="button" data-route="word">Word</button><button type="button" data-route="write">Write</button><button type="button" data-route="search">Search</button><button type="button" data-route="lab">Text Lab</button><button type="button" data-route="learn">Learn</button></nav>
           <div id="document-list" class="document-list"></div>
           <button type="button" class="archive-button" id="archive-toggle">Show archived</button>
         </aside>

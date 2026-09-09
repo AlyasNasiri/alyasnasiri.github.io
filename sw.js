@@ -1,6 +1,6 @@
-const VERSION='bb23f987fbdc68b5';
+const VERSION='7494ef120c1584d2';
 const CACHE='alyas-nasiri-'+VERSION;
-const FILES=["./index.html","./app.mjs","./style.css","./content.mjs","./engine.mjs","./engine-client.mjs","./engine-worker.mjs","./keyboard.json","./special-letters.json","./vendor/find-replace.js","./vendor/text.js","./fonts/BurushaskiNaskh.woff2","./fonts/BurushaskiNastaliq.woff2","./fonts/FONT-OFL.txt","./manifest.webmanifest","./icon.svg","./404.html"];
+const FILES=["./index.html","./app.mjs","./style.css","./content.mjs","./engine.mjs","./engine-client.mjs","./engine-worker.mjs","./keyboard.json","./special-letters.json","./word-lookup.mjs","./word-data.json","./vendor/find-replace.js","./vendor/text.js","./fonts/BurushaskiNaskh.woff2","./fonts/BurushaskiNastaliq.woff2","./fonts/FONT-OFL.txt","./manifest.webmanifest","./icon.svg","./404.html"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES))));
 // Activate at the next fresh visit, so an open document never changes app code mid-session.
 self.addEventListener('activate',event=>event.waitUntil((async()=>{

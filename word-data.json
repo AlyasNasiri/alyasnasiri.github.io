@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "title": "Everyday vocabulary",
+  "publicationStatus": "public",
+  "description": "Selected entries from Alyas Nasiri’s typed vocabulary. These transcriptions may contain typing errors. Source spelling is shown as recorded; pronunciation and usage examples are not supplied.",
+  "entries": [
+    {
+      "id": "TYPED-ML-0001",
+      "headword": "دُرݸ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Work"
+        },
+        {
+          "language": "ur",
+          "text": "کام"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0001"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "duró",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0001"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0002",
+      "headword": "جݶ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Life"
+        },
+        {
+          "language": "ur",
+          "text": "زندگی"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0002"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "jií",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0002"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0003",
+      "headword": "سَبُرݺ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Day"
+        },
+        {
+          "language": "ur",
+          "text": "دن"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0003"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "sábure",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0003"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0004",
+      "headword": "ہݳ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Home"
+        },
+        {
+          "language": "ur",
+          "text": "گھر"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0004"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ha",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0004"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0005",
+      "headword": "یَران",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Friend"
+        },
+        {
+          "language": "ur",
+          "text": "دوست"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0005"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "yaráan",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0005"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0006",
+      "headword": "تھپ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Night"
+        },
+        {
+          "language": "ur",
+          "text": "رات"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0006"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "thap",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0006"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0007",
+      "headword": "گُٹݵ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "House"
+        },
+        {
+          "language": "ur",
+          "text": "گھر"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0007"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "guṭí",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0007"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0008",
+      "headword": "ہا سِس",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Family"
+        },
+        {
+          "language": "ur",
+          "text": "خاندان"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0008"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "háa sis",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0008"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0009",
+      "headword": "گِݷاس",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Child"
+        },
+        {
+          "language": "ur",
+          "text": "بچہ"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0009"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "giẏáas",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0009"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0010",
+      "headword": "ݽَپِک",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Food"
+        },
+        {
+          "language": "ur",
+          "text": "کھانا"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0010"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ṣapík",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0010"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0075",
+      "headword": "بالت",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Apple"
+        },
+        {
+          "language": "ur",
+          "text": "سیب"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0075"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "báalt",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0075"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0082",
+      "headword": "غَشُݸ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Onion"
+        },
+        {
+          "language": "ur",
+          "text": "پیاز"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0082"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ġaśu",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0082"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0083",
+      "headword": "آلُݸ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Potato"
+        },
+        {
+          "language": "ur",
+          "text": "آلو"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0083"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "aalú",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0083"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0086",
+      "headword": "بَلݸگَن",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Tomato"
+        },
+        {
+          "language": "ur",
+          "text": "ٹماٹر"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0086"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "balógan",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0086"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0090",
+      "headword": "رَبݸݣ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Beans"
+        },
+        {
+          "language": "ur",
+          "text": "لوبیہ"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0090"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "rabóṅ",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0090"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0091",
+      "headword": "بُقپݳ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Garlic"
+        },
+        {
+          "language": "ur",
+          "text": "لہسن"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0091"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "buqpá",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0091"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0092",
+      "headword": "غَݽُن",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Carrot"
+        },
+        {
+          "language": "ur",
+          "text": "گاجر"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0092"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ġaṣún",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0092"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0095",
+      "headword": "سݳ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Sun"
+        },
+        {
+          "language": "ur",
+          "text": "سورج"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0095"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "sa",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0095"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0096",
+      "headword": "اَیَش",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Sky"
+        },
+        {
+          "language": "ur",
+          "text": "آسمان"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0096"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ayáś",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0096"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0097",
+      "headword": "بِردݵ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Earth"
+        },
+        {
+          "language": "ur",
+          "text": "زمین"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0097"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "birdí",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0097"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0098",
+      "headword": "ݼِل",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Water"
+        },
+        {
+          "language": "ur",
+          "text": "پانی"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0098"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ċhil",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0098"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0099",
+      "headword": "تݸم",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Tree"
+        },
+        {
+          "language": "ur",
+          "text": "درخت"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0099"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "tom",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0099"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0101",
+      "headword": "ھَلَنڎ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Moon"
+        },
+        {
+          "language": "ur",
+          "text": "چاند"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0101"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "halánċ",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0101"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0102",
+      "headword": "ھَرَلت",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Rain"
+        },
+        {
+          "language": "ur",
+          "text": "بارش"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0102"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "harált",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0102"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0104",
+      "headword": "پھݸ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Fire"
+        },
+        {
+          "language": "ur",
+          "text": "آگ"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0104"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "phu",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0104"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0110",
+      "headword": "اَسقُر",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Flower"
+        },
+        {
+          "language": "ur",
+          "text": "پھول"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0110"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "asqúr",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0110"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0111",
+      "headword": "اَیَش",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Joy"
+        },
+        {
+          "language": "ur",
+          "text": "خوشی"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0111"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "ayáś",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0111"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0124",
+      "headword": "اَݷݳ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Father"
+        },
+        {
+          "language": "ur",
+          "text": "والد"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0124"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "aẏa",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0124"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0125",
+      "headword": "مَمݳ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Mother"
+        },
+        {
+          "language": "ur",
+          "text": "ماں"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0125"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "máma",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0125"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0138",
+      "headword": "برَس",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Rice"
+        },
+        {
+          "language": "ur",
+          "text": "چاول"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0138"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "bras",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0138"
+        }
+      },
+      "alternates": []
+    },
+    {
+      "id": "TYPED-ML-0139",
+      "headword": "بَیُݸ",
+      "senses": [
+        {
+          "language": "en",
+          "text": "Salt"
+        },
+        {
+          "language": "ur",
+          "text": "نمک"
+        }
+      ],
+      "examples": [],
+      "dialect": "unspecified",
+      "source": {
+        "title": "Alyas Nasiri, typed vocabulary",
+        "locator": "Multilingual vocabulary, TYPED-ML-0139"
+      },
+      "pronunciation": null,
+      "roman": {
+        "text": "bayú",
+        "source": {
+          "title": "Alyas Nasiri, typed vocabulary",
+          "locator": "Multilingual vocabulary, TYPED-ML-0139"
+        }
+      },
+      "alternates": []
+    }
+  ]
+}
