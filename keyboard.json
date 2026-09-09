@@ -1,0 +1,659 @@
+{
+  "note": "Desktop hardware key map, exact mirror of burushaski_nasiri.kmn. Index order per key: [base, shift, altgr, shift+altgr].",
+  "layout_order": [
+    "base",
+    "shift",
+    "altgr",
+    "shift_altgr"
+  ],
+  "keys": {
+    "Digit1": [
+      {
+        "char": "۱",
+        "codepoints": [
+          "U+06F1"
+        ]
+      },
+      {
+        "char": "1",
+        "codepoints": [
+          "U+0031"
+        ]
+      }
+    ],
+    "Digit2": [
+      {
+        "char": "۲",
+        "codepoints": [
+          "U+06F2"
+        ]
+      },
+      {
+        "char": "2",
+        "codepoints": [
+          "U+0032"
+        ]
+      }
+    ],
+    "Digit3": [
+      {
+        "char": "۳",
+        "codepoints": [
+          "U+06F3"
+        ]
+      },
+      {
+        "char": "3",
+        "codepoints": [
+          "U+0033"
+        ]
+      }
+    ],
+    "Digit4": [
+      {
+        "char": "۴",
+        "codepoints": [
+          "U+06F4"
+        ]
+      },
+      {
+        "char": "4",
+        "codepoints": [
+          "U+0034"
+        ]
+      }
+    ],
+    "Digit5": [
+      {
+        "char": "۵",
+        "codepoints": [
+          "U+06F5"
+        ]
+      },
+      {
+        "char": "5",
+        "codepoints": [
+          "U+0035"
+        ]
+      }
+    ],
+    "Digit6": [
+      {
+        "char": "۶",
+        "codepoints": [
+          "U+06F6"
+        ]
+      },
+      {
+        "char": "6",
+        "codepoints": [
+          "U+0036"
+        ]
+      }
+    ],
+    "Digit7": [
+      {
+        "char": "۷",
+        "codepoints": [
+          "U+06F7"
+        ]
+      },
+      {
+        "char": "7",
+        "codepoints": [
+          "U+0037"
+        ]
+      }
+    ],
+    "Digit8": [
+      {
+        "char": "۸",
+        "codepoints": [
+          "U+06F8"
+        ]
+      },
+      {
+        "char": "8",
+        "codepoints": [
+          "U+0038"
+        ]
+      }
+    ],
+    "Digit9": [
+      {
+        "char": "۹",
+        "codepoints": [
+          "U+06F9"
+        ]
+      },
+      {
+        "char": "9",
+        "codepoints": [
+          "U+0039"
+        ]
+      }
+    ],
+    "Digit0": [
+      {
+        "char": "۰",
+        "codepoints": [
+          "U+06F0"
+        ]
+      },
+      {
+        "char": "0",
+        "codepoints": [
+          "U+0030"
+        ]
+      }
+    ],
+    "KeyQ": [
+      {
+        "char": "ق",
+        "codepoints": [
+          "U+0642"
+        ]
+      },
+      {
+        "char": "ۡ",
+        "codepoints": [
+          "U+06E1"
+        ]
+      }
+    ],
+    "KeyW": [
+      {
+        "char": "و",
+        "codepoints": [
+          "U+0648"
+        ]
+      },
+      {
+        "char": "َ",
+        "codepoints": [
+          "U+064E"
+        ]
+      },
+      {
+        "char": "ݸ",
+        "codepoints": [
+          "U+0778"
+        ]
+      },
+      {
+        "char": "ݹ",
+        "codepoints": [
+          "U+0779"
+        ]
+      }
+    ],
+    "KeyE": [
+      {
+        "char": "ع",
+        "codepoints": [
+          "U+0639"
+        ]
+      },
+      {
+        "char": "ْ",
+        "codepoints": [
+          "U+0652"
+        ]
+      }
+    ],
+    "KeyR": [
+      {
+        "char": "ر",
+        "codepoints": [
+          "U+0631"
+        ]
+      },
+      {
+        "char": "ڑ",
+        "codepoints": [
+          "U+0691"
+        ]
+      }
+    ],
+    "KeyT": [
+      {
+        "char": "ت",
+        "codepoints": [
+          "U+062A"
+        ]
+      },
+      {
+        "char": "ٹ",
+        "codepoints": [
+          "U+0679"
+        ]
+      }
+    ],
+    "KeyY": [
+      {
+        "char": "ی",
+        "codepoints": [
+          "U+06CC"
+        ]
+      },
+      {
+        "char": "ے",
+        "codepoints": [
+          "U+06D2"
+        ]
+      },
+      {
+        "char": "ݵ",
+        "codepoints": [
+          "U+0775"
+        ]
+      },
+      {
+        "char": "ݶ",
+        "codepoints": [
+          "U+0776"
+        ]
+      }
+    ],
+    "KeyU": [
+      {
+        "char": "ء",
+        "codepoints": [
+          "U+0621"
+        ]
+      },
+      {
+        "char": "أ",
+        "codepoints": [
+          "U+0623"
+        ]
+      }
+    ],
+    "KeyI": [
+      {
+        "char": "ً",
+        "codepoints": [
+          "U+064B"
+        ]
+      },
+      {
+        "char": "ئ",
+        "codepoints": [
+          "U+0626"
+        ]
+      },
+      {
+        "char": "ݺ",
+        "codepoints": [
+          "U+077A"
+        ]
+      },
+      {
+        "char": "ݻ",
+        "codepoints": [
+          "U+077B"
+        ]
+      }
+    ],
+    "KeyO": [
+      {
+        "char": "ہ",
+        "codepoints": [
+          "U+06C1"
+        ]
+      },
+      {
+        "char": "ۂ",
+        "codepoints": [
+          "U+06C2"
+        ]
+      }
+    ],
+    "KeyP": [
+      {
+        "char": "پ",
+        "codepoints": [
+          "U+067E"
+        ]
+      },
+      {
+        "char": "ُ",
+        "codepoints": [
+          "U+064F"
+        ]
+      }
+    ],
+    "BracketLeft": [
+      {
+        "char": "ٍ",
+        "codepoints": [
+          "U+064D"
+        ]
+      }
+    ],
+    "BracketRight": [
+      {
+        "char": "ٌ",
+        "codepoints": [
+          "U+064C"
+        ]
+      }
+    ],
+    "KeyA": [
+      {
+        "char": "ا",
+        "codepoints": [
+          "U+0627"
+        ]
+      },
+      {
+        "char": "آ",
+        "codepoints": [
+          "U+0622"
+        ]
+      },
+      {
+        "char": "ݳ",
+        "codepoints": [
+          "U+0773"
+        ]
+      },
+      {
+        "char": "ݴ",
+        "codepoints": [
+          "U+0774"
+        ]
+      }
+    ],
+    "KeyS": [
+      {
+        "char": "س",
+        "codepoints": [
+          "U+0633"
+        ]
+      },
+      {
+        "char": "ص",
+        "codepoints": [
+          "U+0635"
+        ]
+      },
+      {
+        "char": "ݽ",
+        "codepoints": [
+          "U+077D"
+        ]
+      }
+    ],
+    "KeyD": [
+      {
+        "char": "د",
+        "codepoints": [
+          "U+062F"
+        ]
+      },
+      {
+        "char": "ڈ",
+        "codepoints": [
+          "U+0688"
+        ]
+      },
+      {
+        "char": "ڎ",
+        "codepoints": [
+          "U+068E"
+        ]
+      }
+    ],
+    "KeyF": [
+      {
+        "char": "ف",
+        "codepoints": [
+          "U+0641"
+        ]
+      },
+      {
+        "char": "ِ",
+        "codepoints": [
+          "U+0650"
+        ]
+      }
+    ],
+    "KeyG": [
+      {
+        "char": "گ",
+        "codepoints": [
+          "U+06AF"
+        ]
+      },
+      {
+        "char": "غ",
+        "codepoints": [
+          "U+063A"
+        ]
+      }
+    ],
+    "KeyH": [
+      {
+        "char": "ح",
+        "codepoints": [
+          "U+062D"
+        ]
+      },
+      {
+        "char": "ھ",
+        "codepoints": [
+          "U+06BE"
+        ]
+      },
+      {
+        "char": "ݼ",
+        "codepoints": [
+          "U+077C"
+        ]
+      },
+      {
+        "char": "څ",
+        "codepoints": [
+          "U+0685"
+        ]
+      }
+    ],
+    "KeyJ": [
+      {
+        "char": "ج",
+        "codepoints": [
+          "U+062C"
+        ]
+      },
+      {
+        "char": "ض",
+        "codepoints": [
+          "U+0636"
+        ]
+      },
+      {
+        "char": "ڞ",
+        "codepoints": [
+          "U+069E"
+        ]
+      }
+    ],
+    "KeyK": [
+      {
+        "char": "ک",
+        "codepoints": [
+          "U+06A9"
+        ]
+      },
+      {
+        "char": "خ",
+        "codepoints": [
+          "U+062E"
+        ]
+      },
+      {
+        "char": "ݣ",
+        "codepoints": [
+          "U+0763"
+        ]
+      }
+    ],
+    "KeyL": [
+      {
+        "char": "ل",
+        "codepoints": [
+          "U+0644"
+        ]
+      },
+      {
+        "char": "ٰ",
+        "codepoints": [
+          "U+0670"
+        ]
+      }
+    ],
+    "Semicolon": [
+      {
+        "char": ";",
+        "codepoints": [
+          "U+003B"
+        ]
+      },
+      {
+        "char": "؛",
+        "codepoints": [
+          "U+061B"
+        ]
+      }
+    ],
+    "KeyZ": [
+      {
+        "char": "ز",
+        "codepoints": [
+          "U+0632"
+        ]
+      },
+      {
+        "char": "ذ",
+        "codepoints": [
+          "U+0630"
+        ]
+      }
+    ],
+    "KeyX": [
+      {
+        "char": "ش",
+        "codepoints": [
+          "U+0634"
+        ]
+      },
+      {
+        "char": "ژ",
+        "codepoints": [
+          "U+0698"
+        ]
+      }
+    ],
+    "KeyC": [
+      {
+        "char": "چ",
+        "codepoints": [
+          "U+0686"
+        ]
+      },
+      {
+        "char": "ث",
+        "codepoints": [
+          "U+062B"
+        ]
+      }
+    ],
+    "KeyV": [
+      {
+        "char": "ط",
+        "codepoints": [
+          "U+0637"
+        ]
+      },
+      {
+        "char": "ظ",
+        "codepoints": [
+          "U+0638"
+        ]
+      }
+    ],
+    "KeyB": [
+      {
+        "char": "ب",
+        "codepoints": [
+          "U+0628"
+        ]
+      },
+      {
+        "char": "ؤ",
+        "codepoints": [
+          "U+0624"
+        ]
+      }
+    ],
+    "KeyN": [
+      {
+        "char": "ن",
+        "codepoints": [
+          "U+0646"
+        ]
+      },
+      {
+        "char": "ں",
+        "codepoints": [
+          "U+06BA"
+        ]
+      }
+    ],
+    "KeyM": [
+      {
+        "char": "م",
+        "codepoints": [
+          "U+0645"
+        ]
+      },
+      {
+        "char": "ّ",
+        "codepoints": [
+          "U+0651"
+        ]
+      }
+    ],
+    "Comma": [
+      {
+        "char": "،",
+        "codepoints": [
+          "U+060C"
+        ]
+      }
+    ],
+    "Period": [
+      {
+        "char": "۔",
+        "codepoints": [
+          "U+06D4"
+        ]
+      }
+    ],
+    "Slash": [
+      {
+        "char": "/",
+        "codepoints": [
+          "U+002F"
+        ]
+      },
+      {
+        "char": "؟",
+        "codepoints": [
+          "U+061F"
+        ]
+      }
+    ]
+  }
+}

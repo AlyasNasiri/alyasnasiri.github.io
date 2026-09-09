@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f5f7">
+    <title>Alyas Nasiri</title>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to workspace</a>
+    <header class="topbar">
+      <button class="menu-toggle icon-button" type="button" aria-label="Show documents" aria-controls="document-sidebar" aria-expanded="false">☰</button>
+      <a class="brand" href="#write" aria-label="Alyas Nasiri, writing workspace">Alyas Nasiri</a>
+      <nav class="main-nav" aria-label="Workspace sections">
+        <button type="button" data-route="write" class="active">Write</button>
+        <button type="button" data-route="search">Search</button>
+        <button type="button" data-route="lab">Text Lab</button>
+        <button type="button" data-route="learn">Learn</button>
+      </nav>
+      <div class="top-actions"><span id="save-status" aria-live="polite">Preparing workspace</span><button type="button" class="quiet-button" id="download-recovery" hidden>Download recovery</button><button type="button" class="quiet-button" id="keyboard-toggle" aria-expanded="false">Keyboard</button></div>
+    </header>
+    <main id="main">
+      <section id="write-view" class="view active" aria-label="Writing Studio">
+        <aside id="document-sidebar" class="document-sidebar" aria-label="Documents">
+          <div class="sidebar-title"><h2>Documents</h2><button type="button" class="icon-button" id="new-document" aria-label="New document">＋</button></div>
+          <nav class="mobile-nav" aria-label="Workspace sections"><button type="button" data-route="write">Write</button><button type="button" data-route="search">Search</button><button type="button" data-route="lab">Text Lab</button><button type="button" data-route="learn">Learn</button></nav>
+          <div id="document-list" class="document-list"></div>
+          <button type="button" class="archive-button" id="archive-toggle">Show archived</button>
+        </aside>
+        <div class="editor-area">
+          <div class="editor-toolbar">
+            <label class="title-field"><span class="sr-only">Document title</span><input id="document-title" maxlength="120" placeholder="Untitled document" aria-label="Document title"></label>
+            <div class="format-controls" aria-label="Writing controls">
+              <label>Direction <select id="direction-select"><option value="auto">Auto</option><option value="rtl">Right to left</option><option value="ltr">Left to right</option></select></label>
+              <label>Type <select id="font-select"><option value="system">System</option><option value="naskh">Naskh</option><option value="nastaliq">Nastaliq</option></select></label>
+              <label class="file-button">Open text<input id="open-text" type="file" accept=".txt,.md,text/plain,text/markdown" hidden></label>
+              <button type="button" class="quiet-button" id="export-text">Export text</button>
+              <button type="button" class="quiet-button" id="export-workspace">Export workspace</button>
+              <button type="button" class="quiet-button" id="archive-document">Archive</button>
+              <label class="file-button">Import workspace<input id="import-workspace" type="file" accept="application/json,.json" hidden></label>
+            </div>
+          </div>
+          <div class="find-bar" aria-label="Find and replace">
+            <input id="find-input" type="search" placeholder="Find exact text" aria-label="Find exact text">
+            <button type="button" id="find-next">Next</button>
+            <input id="replace-input" type="text" placeholder="Replace with" aria-label="Replace with">
+            <button type="button" id="replace-one">Replace</button><button type="button" id="replace-all">Replace all</button>
+            <button type="button" id="undo-edit" class="quiet-button">Undo</button>
+            <span id="find-status" aria-live="polite"></span>
+          </div>
+          <textarea id="editor" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="Document text" placeholder="Begin writing"></textarea>
+          <footer class="editor-footer"><span id="document-measure">0 scalars · 0 bytes</span><span id="editor-feedback" aria-live="polite"></span></footer>
+        </div>
+      </section>
+      <section id="search-view" class="view" aria-label="Search workspace">
+        <div class="page-heading"><p class="eyebrow">Workspace search</p><h1>Find exact passages</h1><p>Searches the documents kept in this browser. Case and marks are treated literally.</p></div>
+        <div class="search-panel"><label for="workspace-query">Search text</label><div class="search-line"><input id="workspace-query" type="search" placeholder="Enter text exactly as written"><button id="workspace-search" type="button">Search documents</button></div><div class="results-meta"><span id="search-summary" aria-live="polite">Enter text to search your documents.</span><button id="download-results" type="button" class="quiet-button" disabled>Download results</button></div><div id="search-results" class="search-results"></div></div>
+      </section>
+      <section id="lab-view" class="view" aria-label="Text Lab">
+        <div class="page-heading"><p class="eyebrow">Text Lab</p><h1>Inspect the text you have</h1><p>Technical inspection preserves the text as supplied. It does not infer language or pronunciation.</p></div>
+        <div class="lab-grid"><div class="lab-input"><label for="lab-text">Text to inspect</label><textarea id="lab-text" spellcheck="false" aria-label="Text for inspection"></textarea><div class="lab-actions"><button id="use-current" type="button" class="quiet-button">Use current document</button><button id="parse-text" type="button">Parse text</button><button id="download-packet" type="button" class="quiet-button" disabled>Download packet</button><label class="file-button">Open packet<input id="open-packet" type="file" accept="application/json,.json" hidden></label></div></div><div class="lab-output"><div class="lab-tabs" role="tablist"><button type="button" data-lab-tab="structure" role="tab" aria-selected="true">Structure</button><button type="button" data-lab-tab="unicode" role="tab">Unicode</button><button type="button" data-lab-tab="compare" role="tab">Compare</button></div><div id="lab-result" class="lab-result" aria-live="polite"><p>Parse text to see technical structure.</p></div></div></div>
+      </section>
+      <section id="learn-view" class="view" aria-label="Learn">
+        <div class="page-heading"><p class="eyebrow">Working notes</p><h1>Care for the text while you work</h1><p>Short, practical methods for keeping what you typed visible and recoverable.</p></div><div id="learn-guides" class="guides"></div><section class="practice"><div><p class="eyebrow">Keyboard practice</p><h2>Type the displayed character</h2><p>Practice uses characters from the workspace keyboard. It does not form words.</p></div><div class="practice-box"><output id="practice-prompt" aria-label="Character to type"></output><input id="practice-input" aria-label="Type the displayed character" autocomplete="off"><span id="practice-feedback" aria-live="polite"></span></div></section>
+      </section>
+    </main>
+    <aside id="keyboard-drawer" class="keyboard-drawer" aria-label="Nasiri keyboard" aria-hidden="true">
+      <div class="drawer-heading"><div><p class="eyebrow">Writing aid</p><h2>Nasiri keyboard</h2></div><button type="button" class="icon-button" id="keyboard-close" aria-label="Close keyboard">×</button></div><div class="keyboard-options"><label>Layer <select id="keyboard-layer"><option value="0">Base</option><option value="1">Shift</option><option value="2">AltGr</option><option value="3">Shift + AltGr</option></select></label><label class="switch-label"><input id="hardware-toggle" type="checkbox"> Use hardware keys</label></div><p class="keyboard-note">Choose a key to insert at the saved cursor. Marks show with a dotted circle here and insert as their exact value.</p><div id="key-rows" class="key-rows"></div><div id="special-letters" class="special-letters" aria-label="Special letters"></div><div class="keyboard-utility"><button type="button" data-key-action="space">Space</button><button type="button" data-key-action="enter">Enter</button><button type="button" data-key-action="backspace">Backspace</button></div><a class="secondary-link" href="https://bk-beta-lab.pages.dev/">Open the volunteer keyboard</a></aside>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="./app.mjs"></script>
+  </body>
+</html>

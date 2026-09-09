@@ -1,0 +1,318 @@
+{
+  "note": "The 15 special Nasiri Burushaski letters. These MUST render; the forbidden list below must never be emitted.",
+  "special_letters": [
+    {
+      "char": "ݳ",
+      "codepoints": [
+        "U+0773"
+      ]
+    },
+    {
+      "char": "ݴ",
+      "codepoints": [
+        "U+0774"
+      ]
+    },
+    {
+      "char": "ݵ",
+      "codepoints": [
+        "U+0775"
+      ]
+    },
+    {
+      "char": "ݶ",
+      "codepoints": [
+        "U+0776"
+      ]
+    },
+    {
+      "char": "ݷ",
+      "codepoints": [
+        "U+0777"
+      ]
+    },
+    {
+      "char": "ݸ",
+      "codepoints": [
+        "U+0778"
+      ]
+    },
+    {
+      "char": "ݹ",
+      "codepoints": [
+        "U+0779"
+      ]
+    },
+    {
+      "char": "ݺ",
+      "codepoints": [
+        "U+077A"
+      ]
+    },
+    {
+      "char": "ݻ",
+      "codepoints": [
+        "U+077B"
+      ]
+    },
+    {
+      "char": "ݣ",
+      "codepoints": [
+        "U+0763"
+      ]
+    },
+    {
+      "char": "ݽ",
+      "codepoints": [
+        "U+077D"
+      ]
+    },
+    {
+      "char": "ݼ",
+      "codepoints": [
+        "U+077C"
+      ]
+    },
+    {
+      "char": "څ",
+      "codepoints": [
+        "U+0685"
+      ]
+    },
+    {
+      "char": "ڎ",
+      "codepoints": [
+        "U+068E"
+      ]
+    },
+    {
+      "char": "ڞ",
+      "codepoints": [
+        "U+069E"
+      ]
+    }
+  ],
+  "harakat": [
+    {
+      "char": "َ",
+      "codepoints": [
+        "U+064E"
+      ]
+    },
+    {
+      "char": "ِ",
+      "codepoints": [
+        "U+0650"
+      ]
+    },
+    {
+      "char": "ُ",
+      "codepoints": [
+        "U+064F"
+      ]
+    },
+    {
+      "char": "ّ",
+      "codepoints": [
+        "U+0651"
+      ]
+    },
+    {
+      "char": "ۡ",
+      "codepoints": [
+        "U+06E1"
+      ]
+    },
+    {
+      "char": "ْ",
+      "codepoints": [
+        "U+0652"
+      ]
+    },
+    {
+      "char": "ً",
+      "codepoints": [
+        "U+064B"
+      ]
+    },
+    {
+      "char": "ٍ",
+      "codepoints": [
+        "U+064D"
+      ]
+    },
+    {
+      "char": "ٌ",
+      "codepoints": [
+        "U+064C"
+      ]
+    },
+    {
+      "char": "ٰ",
+      "codepoints": [
+        "U+0670"
+      ]
+    },
+    {
+      "char": "ٖ",
+      "codepoints": [
+        "U+0656"
+      ]
+    }
+  ],
+  "punctuation": [
+    {
+      "char": "،",
+      "codepoints": [
+        "U+060C"
+      ]
+    },
+    {
+      "char": "۔",
+      "codepoints": [
+        "U+06D4"
+      ]
+    },
+    {
+      "char": "؛",
+      "codepoints": [
+        "U+061B"
+      ]
+    },
+    {
+      "char": "؟",
+      "codepoints": [
+        "U+061F"
+      ]
+    },
+    {
+      "char": "!",
+      "codepoints": [
+        "U+0021"
+      ]
+    },
+    {
+      "char": "-",
+      "codepoints": [
+        "U+002D"
+      ]
+    },
+    {
+      "char": "–",
+      "codepoints": [
+        "U+2013"
+      ]
+    },
+    {
+      "char": "—",
+      "codepoints": [
+        "U+2014"
+      ]
+    },
+    {
+      "char": ":",
+      "codepoints": [
+        "U+003A"
+      ]
+    },
+    {
+      "char": "(",
+      "codepoints": [
+        "U+0028"
+      ]
+    },
+    {
+      "char": ")",
+      "codepoints": [
+        "U+0029"
+      ]
+    },
+    {
+      "char": "[",
+      "codepoints": [
+        "U+005B"
+      ]
+    },
+    {
+      "char": "]",
+      "codepoints": [
+        "U+005D"
+      ]
+    },
+    {
+      "char": "۱",
+      "codepoints": [
+        "U+06F1"
+      ]
+    },
+    {
+      "char": "۲",
+      "codepoints": [
+        "U+06F2"
+      ]
+    },
+    {
+      "char": "۳",
+      "codepoints": [
+        "U+06F3"
+      ]
+    },
+    {
+      "char": "۴",
+      "codepoints": [
+        "U+06F4"
+      ]
+    },
+    {
+      "char": "۵",
+      "codepoints": [
+        "U+06F5"
+      ]
+    },
+    {
+      "char": "۶",
+      "codepoints": [
+        "U+06F6"
+      ]
+    },
+    {
+      "char": "۷",
+      "codepoints": [
+        "U+06F7"
+      ]
+    },
+    {
+      "char": "۸",
+      "codepoints": [
+        "U+06F8"
+      ]
+    },
+    {
+      "char": "۹",
+      "codepoints": [
+        "U+06F9"
+      ]
+    },
+    {
+      "char": "۰",
+      "codepoints": [
+        "U+06F0"
+      ]
+    }
+  ],
+  "forbidden_codepoints": [
+    "U+075C",
+    "U+0769",
+    "U+06B5",
+    "U+06CE",
+    "U+065A",
+    "U+0699",
+    "U+08F7",
+    "U+064A",
+    "U+0643",
+    "U+0647",
+    "U+0649",
+    "U+FB50..U+FEFF (Arabic presentation forms)"
+  ],
+  "rule": "Use Urdu ی (U+06CC), ک (U+06A9), ہ (U+06C1) — never the Arabic ي/ك/ه/ى equivalents."
+}
