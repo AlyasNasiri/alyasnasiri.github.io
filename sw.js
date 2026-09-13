@@ -1,4 +1,4 @@
-const VERSION='cbc5ecdc969817d4';
+const VERSION='431872eb56a6ac5a';
 const CACHE='alyas-nasiri-'+VERSION;
 const FILES=["./index.html","./app.mjs","./style.css","./content.mjs","./engine.mjs","./engine-client.mjs","./engine-worker.mjs","./keyboard.json","./special-letters.json","./word-lookup.mjs","./word-data.json","./updates.mjs","./vendor/find-replace.js","./vendor/text.js","./fonts/NasiriNaskh-Regular.woff2","./fonts/NasiriNastaliq-Book.woff2","./fonts/FONT-OFL.txt","./manifest.webmanifest","./icon.svg","./404.html"];
 const LEGACY_CACHES=new Set(['alyas-nasiri-7494ef120c1584d2','alyas-nasiri-bb23f987fbdc68b5','alyas-nasiri-baf338bf972419de']);
