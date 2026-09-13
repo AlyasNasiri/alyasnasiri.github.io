@@ -1,8 +1,8 @@
-@font-face{font-family:NasiriNaskh;src:url('./fonts/BurushaskiNaskh.woff2') format('woff2');font-display:swap}
+@font-face{font-family:NasiriNaskh;src:url('./fonts/NasiriNaskh-Regular.woff2') format('woff2');font-display:swap}
 
 .mobile-global-nav{display:none}
 
-@font-face{font-family:NasiriNastaliq;src:url('./fonts/BurushaskiNastaliq.woff2') format('woff2');font-display:swap}
+@font-face{font-family:NasiriNastaliq;src:url('./fonts/NasiriNastaliq-Book.woff2') format('woff2');font-display:swap}
 
 
 :root{--paper:#fff;--ground:#f5f5f7;--ink:#1d1d1f;--muted:#6e6e73;--line:#d9d9de;--blue:#2166c2;--blue-pale:#edf4ff;--shadow:0 10px 28px rgb(29 29 31 / .06);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--ground)}
