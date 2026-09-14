@@ -1,4 +1,4 @@
-const VERSION='431872eb56a6ac5a';
+const VERSION='5287fc6e586c6ee5';
 const CACHE='alyas-nasiri-'+VERSION;
 const FILES=["./index.html","./app.mjs","./style.css","./content.mjs","./engine.mjs","./engine-client.mjs","./engine-worker.mjs","./keyboard.json","./special-letters.json","./word-lookup.mjs","./word-data.json","./updates.mjs","./vendor/find-replace.js","./vendor/text.js","./fonts/NasiriNaskh-Regular.woff2","./fonts/NasiriNastaliq-Book.woff2","./fonts/FONT-OFL.txt","./manifest.webmanifest","./icon.svg","./404.html"];
 const LEGACY_CACHES=new Set(['alyas-nasiri-7494ef120c1584d2','alyas-nasiri-bb23f987fbdc68b5','alyas-nasiri-baf338bf972419de']);
@@ -22,6 +22,11 @@ self.addEventListener('fetch',event=>{
     const cache=await caches.open(CACHE);
     if(event.request.mode==='navigate') {
       return (await cache.match('./index.html'))||fetch(event.request);
+    }
+    if(url.pathname.endsWith('/word-dictionary.json')) {
+      // Not precached: fetched once on first search, then served from the same versioned cache.
+      const cached=await cache.match(event.request); if(cached) return cached;
+      const response=await fetch(event.request); if(response.ok) await cache.put(event.request,response.clone()); return response;
     }
     return (await cache.match(event.request))||fetch(event.request);
   })());

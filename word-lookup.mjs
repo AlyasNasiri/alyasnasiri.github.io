@@ -1,4 +1,7 @@
 // Source records remain intact. Matching describes retrieval, not a selected sense.
+// Dialect is a stated value, never inferred and never flattened to a display label here;
+// display strings (e.g. "Hunza–Nagar / Yasin") are a presentation concern for the caller.
+const DIALECT_CODES = ['H', 'HN', 'HN/Y', 'Y', 'unspecified'];
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 function text(value, label, {empty = false, max = 20000} = {}) {
   if (typeof value !== 'string' || (!empty && !value.length) || value.length > max || /[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?<![\uD800-\uDBFF])[\uDC00-\uDFFF]/u.test(value)) {
@@ -22,7 +25,9 @@ export function validateCollection(value) {
   if (value.schemaVersion !== 1 || !['review', 'public'].includes(value.publicationStatus)) throw new Error('Unsupported dictionary collection.');
   text(value.title, 'collection title', {max: 500});
   text(value.description, 'collection description', {empty: true, max: 2000});
-  if (!Array.isArray(value.entries) || value.entries.length > 2000) throw new Error('Invalid dictionary entries.');
+  // Cap raised 2026-09-13 for the 15,761-entry APK-sourced typed dictionary; still a bound,
+  // not a target, so a runaway generator cannot silently balloon the shipped collection.
+  if (!Array.isArray(value.entries) || value.entries.length > 20000) throw new Error('Invalid dictionary entries.');
   const seen = new Set();
   for (const entry of value.entries) {
     keys(entry, ['id', 'headword', 'senses', 'examples', 'dialect', 'source', 'pronunciation', 'alternates', 'roman'], 'dictionary entry');
@@ -30,7 +35,7 @@ export function validateCollection(value) {
     if (seen.has(entry.id)) throw new Error('Duplicate dictionary entry ID.');
     seen.add(entry.id);
     text(entry.headword, 'headword', {max: 1000});
-    text(entry.dialect, 'dialect', {max: 200});
+    if (!DIALECT_CODES.includes(entry.dialect)) throw new Error('Invalid dialect.');
     source(entry.source);
     if (!Array.isArray(entry.senses) || !entry.senses.length || entry.senses.length > 50) throw new Error('Invalid dictionary senses.');
     for (const sense of entry.senses) {
@@ -88,5 +93,7 @@ export function searchWords(collection, query, {limit = 50} = {}) {
     if (best) found.push({entry, match: {field: best.field, kind: best.kind}, rank: best.rank});
   }
   found.sort((left, right) => left.rank - right.rank);
-  return {results: found.slice(0, limit).map(({entry, match}) => ({entry, match})), total: found.length, truncated: found.length > limit};
+  // rank travels with each result so a caller merging several collections' results can
+  // re-sort the combined list without reimplementing this function's ranking rules.
+  return {results: found.slice(0, limit).map(({entry, match, rank}) => ({entry, match, rank})), total: found.length, truncated: found.length > limit};
 }
